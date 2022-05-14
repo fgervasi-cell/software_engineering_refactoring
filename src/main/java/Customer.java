@@ -5,8 +5,8 @@ class Customer {
     private final String name;
     private final Vector<Rental> rentals = new Vector<>();
 
-    public Customer(String newname) {
-        name = newname;
+    public Customer(String name) {
+        this.name = name;
     }
 
     ;
