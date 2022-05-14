@@ -29,7 +29,8 @@ class CustomerTest {
                 movie1: 30.0<br>
                 movie2: 4.5<br>
                 </p>You owe <em>34.5</em><p>
-                On this rental you earned <em>3</em> frequent renter points</p>""";
+                On this rental you earned <em>3</em> frequent renter points</p>\
+                """;
 
         Movie m1 = new Movie("movie1", 1);
         Movie m2 = new Movie("movie2", 2);
